@@ -38,7 +38,6 @@
                             <div class='d-flex mb-2'><input type='text' name='ingrediente[]' value="" class='form-control'><button class='btn btn-danger remover'>Remover ingrediente</button></div>
                             @endif
                             <button id='add' class='btn btn-primary'>Adicionar ingrediente</button>
-                            @error('ingrediente')<span>{{$message}}</span> @enderror
                         </div>
 
                         <div class="col-12 mb-2">

@@ -41,7 +41,6 @@ class ReceitaController extends Controller
 
             $request->validate([
                 'titulo'  =>  'required|max:191',
-                'ingrediente'  =>  'required|max:191',
                 'preparo'  =>  'required|max:191',
             ]);
 
@@ -80,7 +79,6 @@ class ReceitaController extends Controller
 
             $request->validate([
                 'titulo'  =>  'required|max:191',
-                'ingrediente'  =>  'required|max:191',
                 'preparo'  =>  'required|max:191',
             ]);
 
